@@ -1,0 +1,9 @@
+{
+    "name": "Blaze Calculator",
+    "short_name": "Bl-Calc",
+    "start_url": "/home=true",
+    "icons": [
+        
+    ],
+    "theme_color": "#000000"
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="theme-color" content="black">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blaze Calculator</title>
+    <link rel="icon" href="https://avatars.githubusercontent.com/u/96913755?v=4" type="image/x-icon"/>
+    <link rel="manifest" href="./manifest.json" />
+    <script src="https://kit.fontawesome.com/f3220d5256.js" crossorigin="anonymous"></script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2604597246009301"
+    crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./public/css/styles.css" />
+</head>
+<body>
+    <div class="app">
+        <div class="app-head">
+            <p>
+                Blaze Calculator
+            </p>
+        </div>
+        <div class="bg">
+            <div class="display">
+                <div class="eval">
+                    0
+                </div>
+                <div class="ot">
+                    <div class="output" contenteditable="false" inputmode="numeric">
+                        0
+                        <!--<div class="plce">
+                            0
+                        </div>-->
+                    </div>
+                    <div class="caret">
+                        <div class="fluid"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="btns">
+                <button data-value="%" class="operator per">%</button>
+                <button id="sqrt" class="operator sqrt">&Sqrt;</button>
+                <button id="sqr" class="operator sq"><var>X<sup>2</sup></var></button>
+                <button id="1/X" class="operator one"><var>1/x</var></button>
+
+                <button data-value="CE" class="operands ce">CE</button>
+                <button data-value="C" class="operands c">C</button>
+                <button data-value="DEL" class="operands bck">&longleftarrow;</button>
+                <button data-value="/" class="operands op" onclick="insert('/')">&divide;</button>
+
+                <button data-value="7" class="no" onclick="insert('7')">7</button>
+                <button data-value="8" class="no" onclick="insert('8')">8</button>
+                <button data-value="9" class="no" onclick="insert('9')">9</button>
+                <button data-value="*" class="operands op" onclick="insert('*')">&times;</button>
+    
+                <button data-value="4" class="no" onclick="insert('4')">4</button>
+                <button data-value="5" class="no" onclick="insert('5')">5</button>
+                <button data-value="6" class="no" onclick="insert('6')">6</button>
+                <button data-value="-" class="operands op" onclick="insert('-')">&minus;</button>
+                
+                <button data-value="1" class="no" onclick="insert('1')">1</button>
+                <button data-value="2" class="no" onclick="insert('2')">2</button>
+                <button data-value="3" class="no" onclick="insert('3')">3</button>
+                <button data-value="+" class="operands op" onclick="insert('+')">&plus;</button>
+    
+                <button class="pl-min plmn">&PlusMinus;</button>
+                <button data-value="0" class="no" onclick="insert('0')">0</button>
+                <button data-value="." class="point" onclick="insert('.')">.</button>
+                <button data-value="=" class="operands op eq">&equals;</button>
+    
+            </div>
+        </div>
+    </div>
+    <script defer src="./public/js/script.js"></script>
+</body>
+</html>
