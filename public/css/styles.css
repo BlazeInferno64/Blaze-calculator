@@ -79,7 +79,7 @@ body{
     height: 150px;
 }
 .eval{
-    font-family: var(--sf);
+    font-family: var(--ff);
     /*display: grid;
     place-items: end;*/
     background: transparent;
@@ -146,7 +146,7 @@ body{
     visibility: hidden;
 }
 .output{
-    font-family: var(--sf);
+    font-family: var(--ff);
     display: grid;
     place-items: end;
     text-align: end;
@@ -190,7 +190,7 @@ body{
 }
 
 .operator,.operands,.no,.pl-min,.point{
-    font-family: var(--sf);
+    font-family: var(--ff);
     cursor: pointer;
     border: none;
     padding: .7rem 1rem;
